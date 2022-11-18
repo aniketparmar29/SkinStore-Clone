@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Here I linked the landingPageStyle -->
+    <link rel="stylesheet" href="shopStyles.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--Here I linked the font awesome Style -->
+    <script src="https://kit.fontawesome.com/239b8919c6.js" crossorigin="anonymous"></script>
+    <title>Cart</title>
+   
+</head>
+<body>
+
+    <!--Here I created the landingPage-container-->
+
+    <div id="navbar"></div>
+    <div id="offer"></div>
+    <div id="search"></div>
+                
+
+
+
+                 <div class="ProductTypeTittle">
+                    <h1>Cart</h1>
+                </div>
+    
+                <div id="FilterAndSortBox">
+                    <select  onchange="Tsort()" id="sortT">
+                        <option value="">Sort By</option>
+                        <option value="high">Price: High to Low</option>
+                        <option value="low">Price: Low to High</option>
+                    </select>
+                   <button id="checkOut" style="padding: 2px;" onclick=window.location.href="checkout.html" > Checkout</button>
+                  <b> <span>Total Price:-<span id="totalPrice" ></span></span>  </b>
+                </div>
+    
+    
+                <!-- Content  -->
+                <div id="container">
+    
+                </div>
+                <!-- *********** -->
+    
+
+
+
+          <div id="footer"></div>      
+                
+</body>
+</html>
+
+<script src="cart.js"></script>
+<script type="module" src="./imported.js"></script>
