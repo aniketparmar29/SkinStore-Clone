@@ -26,11 +26,7 @@ ___
 ### Screenshots
 ___
 
-<br/>
 ![screehshot2](https://i.ibb.co/z52LHgp/Screenshot-2022-12-12-205249.png)
-<br/>
 ![screehshot3](https://i.ibb.co/VYzHrpY/Screenshot-2022-12-12-205322.png)
-<br/>
 ![screehshot4](https://i.ibb.co/jWHMs68/Screenshot-2022-12-12-205210.png)
-<br/>
 ![screehshot5](https://i.ibb.co/NV17R0b/Screenshot-2022-12-12-205224.png)
